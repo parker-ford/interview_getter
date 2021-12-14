@@ -1,14 +1,14 @@
 import os
 import datetime
 
-from fpdf import FPDF, HTMLMixin
+from fpdf import FPDF
 from resume_data import *
 
 h = 4
 sub_size = 13
 txt_size = 11.5 
 
-class PDF(FPDF, HTMLMixin):
+class PDF(FPDF):
     pass
 
 def add_values_inline(key, values, data, pdf, w, h, spacer, max):
