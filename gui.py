@@ -102,7 +102,7 @@ def make_scraper_layout():
     i = 0
     scraper_layout.append([sg.Text("Linkedin", font=big_title_font)])
     for job in job_list_linkedin:
-        scraper_layout.append([sg.Checkbox(job["title"] + ' | ' + job["company"], default=True, key="eLink"+(str(i)))])
+        scraper_layout.append([sg.Checkbox(job["title"] + ' | ' + job["company"], default=False, key="eLink"+(str(i)))])
         i = i+1
 
     return scraper_layout
@@ -141,7 +141,6 @@ while True:
     event, values = window.read()
     if event == "Generate Resume":
         create_resume(values)
-        print(values)
     if event == "Generate Cover Letter":
         create_cover_letter(values)
     if event == "Scrape":

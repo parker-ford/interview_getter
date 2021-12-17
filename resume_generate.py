@@ -102,9 +102,9 @@ def create_resume(values):
     parent_dir = "D:\Documents\Resumes"
     dir = values["eCompanyName"]
     path = os.path.join(parent_dir,dir)
-    if os.path.isfile(path):
+    if not os.path.isdir(path):
+        print("TEST")
         os.mkdir(path)
-    print(path)
 
     pdf = PDF('P' , 'mm', 'Letter')
     pdf.set_auto_page_break(auto=True, margin = 5)

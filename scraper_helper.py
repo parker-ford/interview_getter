@@ -48,6 +48,8 @@ exclude_title_search_terms = [
     ["ii"],
     ["ios"],
     ["test"],
+    ["lead"],
+    ["flutter"]
 ]
 
 exclude_company_search_terms = [
