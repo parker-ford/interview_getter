@@ -118,73 +118,13 @@ from selenium.common.exceptions import NoSuchElementException, ElementNotInterac
 from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 import time
+from scraper_helper import *
 
 PATH = "D:\Downloads\chromedriver_win32\chromedriver.exe"
 
-include_desc_search_terms = [
-    ["entry", "software", "engineer"],
-    ["software", "development"],
-    ["software", "programming"],
-    ["technical", "artist"],
-    ["graphic", "engineer"],
-    [" unity"],
-    ["hlsl"],
-    ["glsl"],
-    ["shader"],
-    ["three", "js"],
-    ["new" , "grad", "software", "engineer"],
-    ["new", "grad" , "computer", "science"],
-    ["opengl"],
-]
 
-exclude_desc_search_terms = [
-    ["5+ years"],
-    ["5 years"],
-    ["6+ years"],
-    ["6 years"],
-    ["7+ years"],
-    ["7 years"],
-    ["8+ years"],
-    ["8 years"],
-    ["9+ years"],
-    ["9 years"],
-    ["10+ years"],
-    ["10 years"],
-    ["iOS development"],
-]
 
-exclude_title_search_terms = [
-    ["senior"],
-    ["sr."],
-    ["mobile"],
-    ["android"],
-]
 
-def search_job(job,link_set):
-    desc = job["description"]
-    title = job["title"]
-    link = job["URL"]
-    if link in link_set:
-        return False
-    for term in include_desc_search_terms:
-        search = True
-        for item in term:
-            search = search and item in desc.lower()
-        if search == True:
-            break
-    for term in exclude_desc_search_terms:
-        search = True
-        for item in term:
-            search = search and item in desc.lower()
-        if search == True:
-            return False
-    for term in exclude_title_search_terms:
-        for item in term:
-            search = search and item in title.lower()
-        if search == True:
-            return False
-
-    return True
 
 #get indeed url based on position and location
 def get_url(position,location):
@@ -302,19 +242,21 @@ def scrape():
     end = time.time()
 
     total_time = end - start
+    try:
+        f  = open("test.txt","w")
+        for job in scraped_jobs:
+            f.write("TITLE: " + job["title"] + "\n")
+            f.write("COMPANY: " + job["company"] + "\n")
+            f.write("\n" + job["URL"] + "\n")
+            f.write("============================================================================\n")
+    
+        f.write("\n\n Number of jobs scraped: " + str(len(scraped_jobs)))
+        f.write("\n Number of pages searched: " + str(i))
+        f.write("\n Time to complete: " + str(total_time))
 
-    f  = open("test.txt","w")
-    for job in scraped_jobs:
-        f.write("TITLE: " + job["title"] + "\n")
-        f.write("COMPANY: " + job["company"] + "\n")
-        f.write("\n" + job["URL"] + "\n")
-        f.write("============================================================================\n")
-   
-    f.write("\n\n Number of jobs scraped: " + str(len(scraped_jobs)))
-    f.write("\n Number of pages searched: " + str(i))
-    f.write("\n Time to complete: " + str(total_time))
-
-    f.close()
+        f.close()
+    except:
+        print("error in writing to test")
 
     driver.quit()
 

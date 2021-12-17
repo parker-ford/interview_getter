@@ -4,13 +4,14 @@ from gui_helpers import *
 from resume_generate import create_resume
 from resume_data import *
 from cover_letter_generate import *
-from indeed_scraper import *
+# from indeed_scraper import *
 import webbrowser
-
+from linkedin_scraper import *
 
 title_font = ("Arial 18 bold")
 subtitle_font = ("Arial 10 bold underline")
-jobs_list = []
+big_title_font = ("Arial 28 bold")
+job_list_linkedin = []
 
 def make_resume_layout():
 
@@ -99,8 +100,9 @@ def make_cover_letter_layout():
 def make_scraper_layout():
     scraper_layout = []
     i = 0
-    for job in jobs_list:
-        scraper_layout.append([sg.Checkbox(job["name"] + ' | ' + job["company"], default=True, key="eLink"+(str(i)))])
+    scraper_layout.append([sg.Text("Linkedin", font=big_title_font)])
+    for job in job_list_linkedin:
+        scraper_layout.append([sg.Checkbox(job["title"] + ' | ' + job["company"], default=True, key="eLink"+(str(i)))])
         i = i+1
 
     return scraper_layout
@@ -144,19 +146,19 @@ while True:
         create_cover_letter(values)
     if event == "Scrape":
         #layout_web_scraper.append([sg.Checkbox("TEST2",default=True)])
-        jobs_list = scrape()
+        job_list_linkedin = scrape_linkedin()
         layout = [make_tab_grp()]
         window1 = sg.Window("Interview Getter", layout)
         window.Close()
         window = window1
     if event == "Open Tabs":
-        for i in range(len(jobs_list)):
+        for i in range(len(job_list_linkedin)):
             if(values["eLink" + str(i)]) == True:
-                webbrowser.open_new(jobs_list[i]["URL"])
+                webbrowser.open_new(job_list_linkedin[i]["URL"])
     if event == "Print Data":
         print("JOB DATA:")
-        for job in jobs_list:
-            print("Title: " + job["name"])
+        for job in job_list_linkedin:
+            print("Title: " + job["title"])
             print("Company: " + job["company"])
             print("URL: " + job["URL"])
             print("Desc: " + job["desc"][0:50])
