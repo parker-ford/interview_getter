@@ -31,7 +31,7 @@ def get_greeting(values):
 
 def get_intro(values):
     intro_str = ""
-    intro_str += "My name is Parker Ford an I'm contacting you about the "
+    intro_str += "My name is Parker Ford and I'm contacting you about the "
     intro_str += values["ePosition"]
     intro_str += " position that was recently posted on "
     intro_str += values["ePostedOn"]
@@ -45,21 +45,21 @@ def get_body(values):
     for i in range(3):
         if values["eBody"+ str(i+1)] == True:
             if i == 0:
-                body_text += "I'm a highly determined and hard-working indiviual who is passionate about learning "
+                body_text += "I'm a highly determined and hard-working individual who is passionate about learning "
                 body_text += values["eBody1-1"]
                 body_text += ". Along with my college experience in the subject, I have devoted much of my free-time to further developing my skills in "
                 body_text += values["eBody1-2"]
-                body_text += ", which would be tranferable and valuable to someone in "
+                body_text += ", which would be transferable  and valuable to someone in "
                 body_text += values["eBody1-3"]
                 body_text += " position."
             elif i == 1:
-                body_text += "I have a background in the user experience field designing and implementing interfaces with a focus on user enjoyment and efficiency. I feel as if this experience will bring unique value to any project as I believe all products should be designed with the user in mind."
+                body_text += " I have a background in the user experience field designing and implementing interfaces with a focus on user enjoyment and efficiency. I feel as if this experience will bring unique value to any project as I believe all products should be designed with the user in mind."
             elif i == 2:
-                body_text += "It's important to me to work for a company that cares so much about "
+                body_text += " It's important to me to work for a company that cares so much about "
                 body_text += values["eBody3-1"]
                 body_text += ". Your mission to "
                 body_text += values["eBody3-2"]
-                body_text += " is very exiting and is somthing that is deeply important to me."
+                body_text += " is very exciting and is something that is deeply important to me."
             elif i == 3:
                 body_text += values["eBody4-1"]
 
@@ -68,7 +68,7 @@ def get_body(values):
 def get_outro(values):
     outro_text = ""
     outro_text += "I would love to join your team as a "
-    outro_text += values["eOutro"]
+    outro_text += values["eOutro"].strip()
     outro_text += "! My phone number is 425-478-8221 and my email is parker.g.ford@gmail.com if you would like to contact me for an interview. Thank you for your time and consideration!"
     return outro_text        
 
@@ -79,7 +79,6 @@ def create_cover_letter(values):
     path = os.path.join(parent_dir,dir)
     if os.path.isfile(path):
         os.mkdir(path)
-    print(path)
 
     pdf = PDF('P' , 'mm', 'Letter')
     pdf.set_auto_page_break(auto=True, margin = 5)
@@ -114,15 +113,16 @@ def create_cover_letter(values):
     pdf.ln(5)
 
     #Outro
-    outro = get_outro(values)
-    print("test" ,outro)
-    pdf.multi_cell(0,h,outro)
+    outro = get_outro(values).strip()
+    #pdf.multi_cell(0,h,"I would love to join your team as a Technical Game Designer! My phone number is 4254788221 and my email is parker.g.ford@gmail.com if you would like to contact me for an interview. Thank you for your time and consideration!", border=True)
+    pdf.multi_cell(0,h, outro, border=True)
     pdf.ln(5)
 
-    pdf.multi_cell(0,h,"-Parker Ford")
+    pdf.multi_cell(0,h+2,"-Parker Ford")
 
     dt = datetime.datetime.today()
     filename = "Cover_Letter_" + values["eCompanyName"] + "_" + str(dt.month) + "_" + str(dt.day) + "_" + str(dt.year) + ".pdf"
     filepath = os.path.join(path,filename)
 
     pdf.output(filepath)
+    print("output done")

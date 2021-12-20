@@ -7,11 +7,13 @@ from cover_letter_generate import *
 # from indeed_scraper import *
 import webbrowser
 from linkedin_scraper import *
+from unity_scraper import scrape_unity
 
 title_font = ("Arial 18 bold")
 subtitle_font = ("Arial 10 bold underline")
 big_title_font = ("Arial 28 bold")
 job_list_linkedin = []
+job_list_unity = []
 
 def make_resume_layout():
 
@@ -96,16 +98,36 @@ def make_cover_letter_layout():
 #     layout_web_scraper.append([sg.Checkbox("Test",default=True)])
 
 
+def scraper_layout_helper(name, job_list, scraper_layout):
+    scraper_layout.append([sg.Text(name, font=big_title_font)])
+    i = 0
+    for job in job_list:
+        scraper_layout.append([sg.Checkbox(job["title"] + ' | ' + job["company"], default=False, key="eLink"+name+(str(i)))])
+        i = i+1
+
 
 def make_scraper_layout():
     scraper_layout = []
-    i = 0
-    scraper_layout.append([sg.Text("Linkedin", font=big_title_font)])
-    for job in job_list_linkedin:
-        scraper_layout.append([sg.Checkbox(job["title"] + ' | ' + job["company"], default=False, key="eLink"+(str(i)))])
-        i = i+1
+    #i = 0
+
+    #TODO: MAKE THIS INTO A FUNCITON
+    scraper_layout_helper("Linkedin", job_list_linkedin, scraper_layout)
+    scraper_layout_helper("Unity", job_list_unity, scraper_layout)
+
+    # scraper_layout.append([sg.Text("Linkedin", font=big_title_font)])
+    # for job in job_list_linkedin:
+    #     scraper_layout.append([sg.Checkbox(job["title"] + ' | ' + job["company"], default=False, key="eLink"+(str(i)))])
+    #     i = i+1
+    # scraper_layout.append([sg.Text("Unity", font=big_title_font)])
+    # for job in job_list_unity:
+    #     scraper_layout.append([sg.Checkbox(job["title"] + ' | ' + job["company"], default=False, key="eLink"+(str(i)))])
 
     return scraper_layout
+
+def open_tabs_helper(job_list, name):
+    for i in range(len(job_list)):
+            if(values["eLink"  +  name + str(i)]) == True:
+                webbrowser.open_new(job_list[i]["URL"])
 
 def make_tab_grp():
     tabgrp = [
@@ -145,15 +167,26 @@ while True:
         create_cover_letter(values)
     if event == "Scrape":
         #layout_web_scraper.append([sg.Checkbox("TEST2",default=True)])
-        job_list_linkedin = scrape_linkedin()
+        #job_list_linkedin = scrape_linkedin()
+        job_list_linkedin = []
+        job_list_unity = scrape_unity()
         layout = [make_tab_grp()]
         window1 = sg.Window("Interview Getter", layout)
         window.Close()
         window = window1
     if event == "Open Tabs":
-        for i in range(len(job_list_linkedin)):
-            if(values["eLink" + str(i)]) == True:
-                webbrowser.open_new(job_list_linkedin[i]["URL"])
+
+        #TODO: MAKE THIS INTO A FUNCTION
+        # for i in range(len(job_list_linkedin)):
+        #     if(values["eLink"  + str(i)]) == True:
+        #         webbrowser.open_new(job_list_linkedin[i]["URL"])
+
+        # for i in range(len(job_list_unity)):
+        #     if(values["eLink" + str(i)]) == True:
+        #         webbrowser.open_new(job_list_unity[i]["URL"])
+        open_tabs_helper(job_list_linkedin, "Linkedin")
+        open_tabs_helper(job_list_unity, "Unity")
+
     if event == "Print Data":
         print("JOB DATA:")
         for job in job_list_linkedin:
