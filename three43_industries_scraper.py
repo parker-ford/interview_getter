@@ -2,24 +2,21 @@ from selenium import webdriver
 from tinydb import TinyDB, where
 import time
 
-def scrape_doubledown():
+def scrape_343_industries():
     PATH = "D:\Downloads\chromedriver_win32\chromedriver.exe"
     driver = webdriver.Chrome(PATH)
     driver.implicitly_wait(5)
     driver.maximize_window()
-    driver.get("https://jobs.jobvite.com/doubledowninteractive/?nl=1&fr=true")
+    driver.get("https://www.343industries.com/careers")
 
     db = TinyDB('db.json')
     job_list = []
-    try:
-        job_lists = driver.find_elements_by_class_name('jv-job-list-name')
-    except:
-        print("ERROR: GET DOUBLEDOWN JOBS FAILED")
-        return []
-    for pos_list in job_lists:
-        title = pos_list.text
-        company = "Doubledown Interactive"
-        url = pos_list.find_element_by_tag_name('a').get_attribute('href')
+
+    positions = driver.find_elements_by_class_name('position')
+    for pos in positions:
+        title = pos.text.strip()
+        company = '343 Industries'
+        url = pos.find_element_by_tag_name('a').get_attribute('href')
         job = {
             'title' : title,
             'company' : company,
@@ -30,9 +27,5 @@ def scrape_doubledown():
         if len(db.search(where('URL') == url)) == 0:
             db.insert(job)
             job_list.append(job)
-
-
-        #print(url)
-        # print(title)
 
     return job_list

@@ -10,6 +10,7 @@ from cover_letter_generate import *
 import webbrowser
 from linkedin_scraper import *
 from unity_scraper import scrape_unity
+from three43_industries_scraper import *
 
 title_font = ("Arial 18 bold")
 subtitle_font = ("Arial 10 bold underline")
@@ -19,6 +20,7 @@ job_list_linkedin = []
 job_list_unity = []
 job_list_epic_games = []
 job_list_doubledown = []
+job_list_343_industries = []
 
 def make_resume_layout():
 
@@ -121,6 +123,7 @@ def make_scraper_layout():
     scraper_layout_helper("Unity", job_list_unity, scraper_layout)
     scraper_layout_helper("Epic Games", job_list_epic_games, scraper_layout)
     scraper_layout_helper("Doubledown Interactive", job_list_doubledown, scraper_layout)
+    scraper_layout_helper("343 Industries", job_list_343_industries, scraper_layout)
     # scraper_layout.append([sg.Text("Linkedin", font=big_title_font)])
     # for job in job_list_linkedin:
     #     scraper_layout.append([sg.Checkbox(job["title"] + ' | ' + job["company"], default=False, key="eLink"+(str(i)))])
@@ -176,9 +179,10 @@ while True:
         #layout_web_scraper.append([sg.Checkbox("TEST2",default=True)])
         #job_list_linkedin = scrape_linkedin()
         job_list_linkedin = []
-        job_list_unity = scrape_unity()
-        job_list_epic_games = scrape_epic_games()
-        job_list_doubledown = scrape_doubledown()
+        #job_list_unity = scrape_unity()
+        #job_list_epic_games = scrape_epic_games()
+        #job_list_doubledown = scrape_doubledown()
+        job_list_343_industries = scrape_343_industries()
         layout = [make_tab_grp()]
         window1 = sg.Window("Interview Getter", layout)
         window.Close()
@@ -197,6 +201,7 @@ while True:
         open_tabs_helper(job_list_unity, "Unity")
         open_tabs_helper(job_list_epic_games, "Epic Games")
         open_tabs_helper(job_list_doubledown, "Doubledown Interactive")
+        open_tabs_helper(job_list_343_industries, "343 Industries")
 
     if event == "Print Data":
         print("JOB DATA:")
