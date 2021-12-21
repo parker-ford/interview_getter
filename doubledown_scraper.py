@@ -31,7 +31,7 @@ def scrape_doubledown():
             db.insert(job)
             job_list.append(job)
 
-
+    driver.close()
         #print(url)
         # print(title)
 

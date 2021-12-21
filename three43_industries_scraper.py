@@ -28,4 +28,6 @@ def scrape_343_industries():
             db.insert(job)
             job_list.append(job)
 
+    driver.close()
+
     return job_list

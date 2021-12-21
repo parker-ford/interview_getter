@@ -3,6 +3,7 @@ from doubledown_scraper import scrape_doubledown
 from epic_games_scraper import scrape_epic_games
 
 from gui_helpers import *
+from pokemon_scraper import scrape_pokemon
 from resume_generate import create_resume
 from resume_data import *
 from cover_letter_generate import *
@@ -21,6 +22,7 @@ job_list_unity = []
 job_list_epic_games = []
 job_list_doubledown = []
 job_list_343_industries = []
+job_list_pokemon = []
 
 def make_resume_layout():
 
@@ -117,20 +119,12 @@ def scraper_layout_helper(name, job_list, scraper_layout):
 def make_scraper_layout():
     scraper_layout = []
     #i = 0
-
-    #TODO: MAKE THIS INTO A FUNCITON
     scraper_layout_helper("Linkedin", job_list_linkedin, scraper_layout)
     scraper_layout_helper("Unity", job_list_unity, scraper_layout)
     scraper_layout_helper("Epic Games", job_list_epic_games, scraper_layout)
     scraper_layout_helper("Doubledown Interactive", job_list_doubledown, scraper_layout)
     scraper_layout_helper("343 Industries", job_list_343_industries, scraper_layout)
-    # scraper_layout.append([sg.Text("Linkedin", font=big_title_font)])
-    # for job in job_list_linkedin:
-    #     scraper_layout.append([sg.Checkbox(job["title"] + ' | ' + job["company"], default=False, key="eLink"+(str(i)))])
-    #     i = i+1
-    # scraper_layout.append([sg.Text("Unity", font=big_title_font)])
-    # for job in job_list_unity:
-    #     scraper_layout.append([sg.Checkbox(job["title"] + ' | ' + job["company"], default=False, key="eLink"+(str(i)))])
+    scraper_layout_helper("Pokemon", job_list_pokemon, scraper_layout)
 
     return scraper_layout
 
@@ -182,7 +176,8 @@ while True:
         #job_list_unity = scrape_unity()
         #job_list_epic_games = scrape_epic_games()
         #job_list_doubledown = scrape_doubledown()
-        job_list_343_industries = scrape_343_industries()
+        #job_list_343_industries = scrape_343_industries()
+        job_list_pokemon = scrape_pokemon()
         layout = [make_tab_grp()]
         window1 = sg.Window("Interview Getter", layout)
         window.Close()
@@ -202,6 +197,7 @@ while True:
         open_tabs_helper(job_list_epic_games, "Epic Games")
         open_tabs_helper(job_list_doubledown, "Doubledown Interactive")
         open_tabs_helper(job_list_343_industries, "343 Industries")
+        open_tabs_helper(job_list_pokemon, "Pokemon")
 
     if event == "Print Data":
         print("JOB DATA:")

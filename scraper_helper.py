@@ -169,7 +169,6 @@ rec room: https://recroom.com/careers#openings
 cat daddy games: https://boards.greenhouse.io/catdaddy
 niantic: https://careers.nianticlabs.com/openings/?office=seattle-area-bellevue-wa#positions
 keywords studios: https://www.keywordsstudios.com/careers/
-343 industries: https://www.343industries.com/careers
 leaftail labs: https://www.leaftaillabs.com/careers
 ncsoft: https://us.ncsoft.com/en-us/careers?sort=location#all
 suckerpunch: https://jobs.suckerpunch.com/?host=jobs.suckerpunch.com
@@ -178,7 +177,7 @@ play every ware: https://www.playeveryware.com/careers
 theory craft games: https://www.theorycraftgames.com/careers
 gamesight: https://angel.co/company/gamesight/jobs
 valve: https://www.valvesoftware.com/en/?job_cat=software-engineering
-mythical games: https://mythicalgames.com/careers
+-mythical games: https://mythicalgames.com/careers
 
 --startups
 
@@ -187,5 +186,6 @@ completed:
 unity: https://careers.unity.com/location/bellevue
 epic games: https://www.epicgames.com/site/en-US/careers/jobs?country=United%20States&state=Washington&page=1
 double down interactive: https://www.doubledowninteractive.com/jobs/
+343 industries: https://www.343industries.com/careers
 
 """
