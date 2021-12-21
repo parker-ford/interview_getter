@@ -3,6 +3,7 @@ from doubledown_scraper import scrape_doubledown
 from epic_games_scraper import scrape_epic_games
 
 from gui_helpers import *
+from intercept_games_scraper import scrape_intercept_games
 from pokemon_scraper import scrape_pokemon
 from resume_generate import create_resume
 from resume_data import *
@@ -12,6 +13,7 @@ import webbrowser
 from linkedin_scraper import *
 from unity_scraper import scrape_unity
 from three43_industries_scraper import *
+from wizards_of_the_coast_scraper import scrape_wizards_of_the_coast
 
 title_font = ("Arial 18 bold")
 subtitle_font = ("Arial 10 bold underline")
@@ -23,6 +25,8 @@ job_list_epic_games = []
 job_list_doubledown = []
 job_list_343_industries = []
 job_list_pokemon = []
+job_list_intercept_games = []
+job_list_wizards_of_the_coast = []
 
 def make_resume_layout():
 
@@ -125,6 +129,8 @@ def make_scraper_layout():
     scraper_layout_helper("Doubledown Interactive", job_list_doubledown, scraper_layout)
     scraper_layout_helper("343 Industries", job_list_343_industries, scraper_layout)
     scraper_layout_helper("Pokemon", job_list_pokemon, scraper_layout)
+    scraper_layout_helper("Intercept Games", job_list_intercept_games, scraper_layout)
+    scraper_layout_helper("Wizards of the Coast", job_list_wizards_of_the_coast, scraper_layout)
 
     return scraper_layout
 
@@ -177,7 +183,9 @@ while True:
         #job_list_epic_games = scrape_epic_games()
         #job_list_doubledown = scrape_doubledown()
         #job_list_343_industries = scrape_343_industries()
-        job_list_pokemon = scrape_pokemon()
+        #job_list_pokemon = scrape_pokemon()
+        #job_list_intercept_games = scrape_intercept_games()
+        job_list_wizards_of_the_coast = scrape_wizards_of_the_coast()
         layout = [make_tab_grp()]
         window1 = sg.Window("Interview Getter", layout)
         window.Close()
@@ -198,7 +206,8 @@ while True:
         open_tabs_helper(job_list_doubledown, "Doubledown Interactive")
         open_tabs_helper(job_list_343_industries, "343 Industries")
         open_tabs_helper(job_list_pokemon, "Pokemon")
-
+        open_tabs_helper(job_list_intercept_games, "Intercept Games")
+        open_tabs_helper(job_list_wizards_of_the_coast, "Wizards of the Coast")
     if event == "Print Data":
         print("JOB DATA:")
         for job in job_list_linkedin:

@@ -135,6 +135,16 @@ def search_title(job):
 
     return True
 
+def create_job(title, company, description, url):
+    job = {
+        'title' : title,
+        'company' : company,
+        'description' : description,
+        'URL' : url
+    }
+
+    return job
+
 
 
 """
@@ -148,8 +158,6 @@ builtinseattle
 companies:
 -- gaming --
 - bio ware: https://www.bioware.com/careers/
-pokemon: https://boards.greenhouse.io/pokemoncareers
-intercept games: https://www.interceptgames.com/#jobs
 wizareds of the coast: https://company.wizards.com/en/careers 
 geocaching: https://www.geocaching.com/careers
 bungie: https://careers.bungie.com/jobs
@@ -179,13 +187,15 @@ gamesight: https://angel.co/company/gamesight/jobs
 valve: https://www.valvesoftware.com/en/?job_cat=software-engineering
 -mythical games: https://mythicalgames.com/careers
 
---startups
+--startups--
 
 
-completed:
+--completed--:
 unity: https://careers.unity.com/location/bellevue
 epic games: https://www.epicgames.com/site/en-US/careers/jobs?country=United%20States&state=Washington&page=1
 double down interactive: https://www.doubledowninteractive.com/jobs/
 343 industries: https://www.343industries.com/careers
+pokemon: https://boards.greenhouse.io/pokemoncareers
+intercept games: https://www.interceptgames.com/#jobs
 
 """
