@@ -42,7 +42,7 @@ def get_intro(values):
 
 def get_body(values):
     body_text = ""
-    for i in range(3):
+    for i in range(4):
         if values["eBody"+ str(i+1)] == True:
             if i == 0:
                 body_text += "I'm a highly determined and hard-working individual who is passionate about learning "
@@ -61,6 +61,7 @@ def get_body(values):
                 body_text += values["eBody3-2"]
                 body_text += " is very exciting and is something that is deeply important to me."
             elif i == 3:
+                print(values["eBody4-1"])
                 body_text += values["eBody4-1"]
 
     return body_text 
@@ -115,7 +116,7 @@ def create_cover_letter(values):
     #Outro
     outro = get_outro(values).strip()
     #pdf.multi_cell(0,h,"I would love to join your team as a Technical Game Designer! My phone number is 4254788221 and my email is parker.g.ford@gmail.com if you would like to contact me for an interview. Thank you for your time and consideration!", border=True)
-    pdf.multi_cell(0,h, outro, border=True)
+    pdf.multi_cell(0,h, outro, border=False)
     pdf.ln(5)
 
     pdf.multi_cell(0,h+2,"-Parker Ford")

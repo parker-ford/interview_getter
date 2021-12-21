@@ -83,7 +83,7 @@ def make_cover_letter_layout():
     layout_cover_letter.append([sg.Text("3."), sg.Checkbox('',default=True,key="eBody3") , sg.InputText(size=(15,1) , key="eBody3-1"), sg.InputText(size=(15,1), key="eBody3-2")])
     layout_cover_letter.append([sg.Text("""It's important to me to work for a company that cares so much about _______. 
     \nYour mission to _______is very exiting and is somthing that is deeply important to me.""")])
-    layout_cover_letter.append([sg.Text("4.") , sg.Checkbox('Custom:', default=False, key="ebody4"), sg.Multiline(size=(60,3))])
+    layout_cover_letter.append([sg.Text("4.") , sg.Checkbox('Custom:', default=False, key="eBody4"), sg.Multiline(size=(60,3), key="eBody4-1")])
 
     #Outro
     layout_cover_letter.append([sg.Text("Outro: " , font=subtitle_font)])
