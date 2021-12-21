@@ -52,14 +52,14 @@ def scrape_unity():
         position_lists = driver.find_elements_by_class_name('component-open-positions__list')
     except:
         print("ERROR: GET UNTIY POSITION LIST FAILED")
-        return
+        return []
     design_positions = position_lists[1]
     engineering_positions = position_lists[2]
     get_positions(design_positions, job_list, db)
     get_positions(engineering_positions, job_list, db)
 
     driver.close()
-    print(len(db.all()))
+    # print(len(db.all()))
     return job_list
 
 #scrape_unity()

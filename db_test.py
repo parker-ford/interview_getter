@@ -1,6 +1,6 @@
 from tinydb import TinyDB, where
 
-db = TinyDB('db.json')
+db = TinyDB('db_test.json')
 
 title = 'test title'
 company = 'test company'

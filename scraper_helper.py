@@ -146,8 +146,8 @@ angel list
 builtinseattle
 
 companies:
-bio ware: https://www.bioware.com/careers/
-unity: https://careers.unity.com/location/bellevue
+-- gaming --
+- bio ware: https://www.bioware.com/careers/
 double down interactive: https://www.doubledowninteractive.com/jobs/
 pokemon: https://boards.greenhouse.io/pokemoncareers
 intercept games: https://www.interceptgames.com/#jobs
@@ -158,6 +158,34 @@ twitch: https://www.twitch.tv/jobs/careers/?location=seattle-wa
 rainway: https://www.notion.so/rainway/Work-at-Rainway-d8bc37380f484b9a8ec48ba209dbf805#b2187bc6b59b4dafaedac0274c0ef94c https://www.notion.so/Code-Challenges-f1bc61fecf754d06be253ad4300e565a
 flowplay: https://www.flowplay.com/contact
 runic games: https://www.runicgames.com/careers/
+arena net: https://www.arena.net/en/careers#listings
+big fish games: https://careers.aristocrat.com/aristocratdigital/au/en/big-fish-jobs
+harebrained schemes: https://harebrained-schemes.com/careers/
+probably monsters: https://www.probablymonsters.com/careers/
+tenacious entertainment: https://tenaciousentertainment.com/careers/#careers
+starform: https://starform.co/careers
+undeadlabs: https://undeadlabs.com/jobs/
+lightfox games: https://www.lightfoxgames.com/careers
+rec room: https://recroom.com/careers#openings
+cat daddy games: https://boards.greenhouse.io/catdaddy
+niantic: https://careers.nianticlabs.com/openings/?office=seattle-area-bellevue-wa#positions
+keywords studios: https://www.keywordsstudios.com/careers/
+343 industries: https://www.343industries.com/careers
+leaftail labs: https://www.leaftaillabs.com/careers
+ncsoft: https://us.ncsoft.com/en-us/careers?sort=location#all
+suckerpunch: https://jobs.suckerpunch.com/?host=jobs.suckerpunch.com
+hopoo games: https://hopoogames.com/jobs-at-hopoo-games/
+play every ware: https://www.playeveryware.com/careers
+theory craft games: https://www.theorycraftgames.com/careers
+gamesight: https://angel.co/company/gamesight/jobs
+valve: https://www.valvesoftware.com/en/?job_cat=software-engineering
+mythical games: https://mythicalgames.com/careers
+epic games: https://www.epicgames.com/site/en-US/careers/jobs?country=United%20States&state=Washington&page=1
 
+--startups
+
+
+completed:
+unity: https://careers.unity.com/location/bellevue
 
 """

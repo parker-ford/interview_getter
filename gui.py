@@ -1,4 +1,5 @@
 import PySimpleGUI as sg
+from epic_games_scraper import scrape_epic_games
 
 from gui_helpers import *
 from resume_generate import create_resume
@@ -12,8 +13,10 @@ from unity_scraper import scrape_unity
 title_font = ("Arial 18 bold")
 subtitle_font = ("Arial 10 bold underline")
 big_title_font = ("Arial 28 bold")
+
 job_list_linkedin = []
 job_list_unity = []
+job_list_epic_games = []
 
 def make_resume_layout():
 
@@ -99,7 +102,8 @@ def make_cover_letter_layout():
 
 
 def scraper_layout_helper(name, job_list, scraper_layout):
-    scraper_layout.append([sg.Text(name, font=big_title_font)])
+    if len(job_list) > 0:
+        scraper_layout.append([sg.Text(name, font=big_title_font)])
     i = 0
     for job in job_list:
         scraper_layout.append([sg.Checkbox(job["title"] + ' | ' + job["company"], default=False, key="eLink"+name+(str(i)))])
@@ -113,7 +117,7 @@ def make_scraper_layout():
     #TODO: MAKE THIS INTO A FUNCITON
     scraper_layout_helper("Linkedin", job_list_linkedin, scraper_layout)
     scraper_layout_helper("Unity", job_list_unity, scraper_layout)
-
+    scraper_layout_helper("Epic Games", job_list_epic_games, scraper_layout)
     # scraper_layout.append([sg.Text("Linkedin", font=big_title_font)])
     # for job in job_list_linkedin:
     #     scraper_layout.append([sg.Checkbox(job["title"] + ' | ' + job["company"], default=False, key="eLink"+(str(i)))])
@@ -170,6 +174,7 @@ while True:
         #job_list_linkedin = scrape_linkedin()
         job_list_linkedin = []
         job_list_unity = scrape_unity()
+        job_list_epic_games = scrape_epic_games()
         layout = [make_tab_grp()]
         window1 = sg.Window("Interview Getter", layout)
         window.Close()
@@ -186,6 +191,7 @@ while True:
         #         webbrowser.open_new(job_list_unity[i]["URL"])
         open_tabs_helper(job_list_linkedin, "Linkedin")
         open_tabs_helper(job_list_unity, "Unity")
+        open_tabs_helper(job_list_epic_games, "Epic Games")
 
     if event == "Print Data":
         print("JOB DATA:")
