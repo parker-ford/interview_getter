@@ -1,14 +1,4 @@
 from selenium import webdriver
-from selenium.common.exceptions import ElementNotInteractableException
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium import webdriver
-from bs4 import BeautifulSoup as bs
-import re as re
-import time
-import pandas as pd
 from tinydb import TinyDB, where
 
 def scrape_epic_games():

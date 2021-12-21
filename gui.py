@@ -1,4 +1,5 @@
 import PySimpleGUI as sg
+from doubledown_scraper import scrape_doubledown
 from epic_games_scraper import scrape_epic_games
 
 from gui_helpers import *
@@ -17,6 +18,7 @@ big_title_font = ("Arial 28 bold")
 job_list_linkedin = []
 job_list_unity = []
 job_list_epic_games = []
+job_list_doubledown = []
 
 def make_resume_layout():
 
@@ -118,6 +120,7 @@ def make_scraper_layout():
     scraper_layout_helper("Linkedin", job_list_linkedin, scraper_layout)
     scraper_layout_helper("Unity", job_list_unity, scraper_layout)
     scraper_layout_helper("Epic Games", job_list_epic_games, scraper_layout)
+    scraper_layout_helper("Doubledown Interactive", job_list_doubledown, scraper_layout)
     # scraper_layout.append([sg.Text("Linkedin", font=big_title_font)])
     # for job in job_list_linkedin:
     #     scraper_layout.append([sg.Checkbox(job["title"] + ' | ' + job["company"], default=False, key="eLink"+(str(i)))])
@@ -175,6 +178,7 @@ while True:
         job_list_linkedin = []
         job_list_unity = scrape_unity()
         job_list_epic_games = scrape_epic_games()
+        job_list_doubledown = scrape_doubledown()
         layout = [make_tab_grp()]
         window1 = sg.Window("Interview Getter", layout)
         window.Close()
@@ -192,6 +196,7 @@ while True:
         open_tabs_helper(job_list_linkedin, "Linkedin")
         open_tabs_helper(job_list_unity, "Unity")
         open_tabs_helper(job_list_epic_games, "Epic Games")
+        open_tabs_helper(job_list_doubledown, "Doubledown Interactive")
 
     if event == "Print Data":
         print("JOB DATA:")
