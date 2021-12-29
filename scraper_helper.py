@@ -163,7 +163,6 @@ twitch: https://www.twitch.tv/jobs/careers/?location=seattle-wa
 rainway: https://www.notion.so/rainway/Work-at-Rainway-d8bc37380f484b9a8ec48ba209dbf805#b2187bc6b59b4dafaedac0274c0ef94c https://www.notion.so/Code-Challenges-f1bc61fecf754d06be253ad4300e565a
 flowplay: https://www.flowplay.com/contact
 runic games: https://www.runicgames.com/careers/
-arena net: https://www.arena.net/en/careers#listings
 big fish games: https://careers.aristocrat.com/aristocratdigital/au/en/big-fish-jobs
 harebrained schemes: https://harebrained-schemes.com/careers/
 probably monsters: https://www.probablymonsters.com/careers/
@@ -197,5 +196,6 @@ pokemon: https://boards.greenhouse.io/pokemoncareers
 intercept games: https://www.interceptgames.com/#jobs
 wizareds of the coast: https://company.wizards.com/en/careers 
 bungie: https://careers.bungie.com/jobs
+arena net: https://www.arena.net/en/careers#listings
 
 """
