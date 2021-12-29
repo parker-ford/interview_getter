@@ -159,7 +159,6 @@ companies:
 -- gaming --
 - bio ware: https://www.bioware.com/careers/
 geocaching: https://www.geocaching.com/careers
-bungie: https://careers.bungie.com/jobs
 twitch: https://www.twitch.tv/jobs/careers/?location=seattle-wa
 rainway: https://www.notion.so/rainway/Work-at-Rainway-d8bc37380f484b9a8ec48ba209dbf805#b2187bc6b59b4dafaedac0274c0ef94c https://www.notion.so/Code-Challenges-f1bc61fecf754d06be253ad4300e565a
 flowplay: https://www.flowplay.com/contact
@@ -197,5 +196,6 @@ double down interactive: https://www.doubledowninteractive.com/jobs/
 pokemon: https://boards.greenhouse.io/pokemoncareers
 intercept games: https://www.interceptgames.com/#jobs
 wizareds of the coast: https://company.wizards.com/en/careers 
+bungie: https://careers.bungie.com/jobs
 
 """
