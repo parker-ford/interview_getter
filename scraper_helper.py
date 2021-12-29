@@ -152,13 +152,12 @@ Scrape Ideas:
 
 Boards:
 Hitmarker
-angel list
+angel list 
 builtinseattle
 
 companies:
 -- gaming --
 - bio ware: https://www.bioware.com/careers/
-wizareds of the coast: https://company.wizards.com/en/careers 
 geocaching: https://www.geocaching.com/careers
 bungie: https://careers.bungie.com/jobs
 twitch: https://www.twitch.tv/jobs/careers/?location=seattle-wa
@@ -197,5 +196,6 @@ double down interactive: https://www.doubledowninteractive.com/jobs/
 343 industries: https://www.343industries.com/careers
 pokemon: https://boards.greenhouse.io/pokemoncareers
 intercept games: https://www.interceptgames.com/#jobs
+wizareds of the coast: https://company.wizards.com/en/careers 
 
 """

@@ -1,4 +1,5 @@
 import PySimpleGUI as sg
+from bungie_scraper import scrape_bungie
 from doubledown_scraper import scrape_doubledown
 from epic_games_scraper import scrape_epic_games
 
@@ -27,6 +28,7 @@ job_list_343_industries = []
 job_list_pokemon = []
 job_list_intercept_games = []
 job_list_wizards_of_the_coast = []
+job_list_bungie = []
 
 def make_resume_layout():
 
@@ -131,6 +133,7 @@ def make_scraper_layout():
     scraper_layout_helper("Pokemon", job_list_pokemon, scraper_layout)
     scraper_layout_helper("Intercept Games", job_list_intercept_games, scraper_layout)
     scraper_layout_helper("Wizards of the Coast", job_list_wizards_of_the_coast, scraper_layout)
+    scraper_layout_helper("Bungie", job_list_bungie, scraper_layout)
 
     return scraper_layout
 
@@ -176,16 +179,15 @@ while True:
     if event == "Generate Cover Letter":
         create_cover_letter(values)
     if event == "Scrape":
-        #layout_web_scraper.append([sg.Checkbox("TEST2",default=True)])
-        #job_list_linkedin = scrape_linkedin()
-        job_list_linkedin = []
-        #job_list_unity = scrape_unity()
-        #job_list_epic_games = scrape_epic_games()
-        #job_list_doubledown = scrape_doubledown()
-        #job_list_343_industries = scrape_343_industries()
-        #job_list_pokemon = scrape_pokemon()
-        #job_list_intercept_games = scrape_intercept_games()
-        job_list_wizards_of_the_coast = scrape_wizards_of_the_coast()
+        # job_list_linkedin = scrape_linkedin()
+        # job_list_unity = scrape_unity()
+        # job_list_epic_games = scrape_epic_games()
+        # job_list_doubledown = scrape_doubledown()
+        # job_list_343_industries = scrape_343_industries()
+        # job_list_pokemon = scrape_pokemon()
+        # job_list_intercept_games = scrape_intercept_games()
+        # job_list_wizards_of_the_coast = scrape_wizards_of_the_coast()
+        job_list_bungie = scrape_bungie()
         layout = [make_tab_grp()]
         window1 = sg.Window("Interview Getter", layout)
         window.Close()
@@ -208,6 +210,7 @@ while True:
         open_tabs_helper(job_list_pokemon, "Pokemon")
         open_tabs_helper(job_list_intercept_games, "Intercept Games")
         open_tabs_helper(job_list_wizards_of_the_coast, "Wizards of the Coast")
+        open_tabs_helper(job_list_bungie, "Bungie")
     if event == "Print Data":
         print("JOB DATA:")
         for job in job_list_linkedin:

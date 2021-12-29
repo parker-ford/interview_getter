@@ -80,13 +80,14 @@ project_names = [
 ]
 
 
-coursework = ["                               ","Databases", "Data Structures", "Analysis of Algorithms", "Object Oriented Design", "Compute Systems", "Networks", "Formal Languages", " Operating Systems",
+coursework = ["                               ","Databases", "Data Structures", "Analysis of Algorithms", "Object Oriented Design", "Computer Systems", "Networks" , " Operating Systems",
               "Networks", "Formal Languages", "Game Programming", "Human-Computer Interaction", "Computer Vision", "Computer Graphics", "Linear Algebra", "Calculus",
               "Physics", "Principals of Interaction Design", "Applied Cognition for UX Design", "Visual Communication", "Industrial Design CAD", "Graphic Design"
              ]
 
-skills = [ "C++", "C", "C#", "Javascript", "Java", "Python", "SQL", "Lisp", "CSS", "HTML",
-           "HLSL", "GLSL", "React", "Three.js", "Unity", "Blender", "Vulkan", "OpenGL", "WebGL", "VR", "AR",
+skills = [ "C++", "C", "C#", "Javascript", "Java", "Python", "SQL", "Lisp", "Shell Scripting" ,"CSS", "HTML",
+           "HLSL", "GLSL", "React", "Three.js", "Node.js" ,"Unity", "Blender", "Vulkan", "OpenGL", "WebGL", "VR", "AR",
+           "NumPy", " Pandas",
            "Adobe Photshop", "Adobe Illustrator", "Microsoft Suite", "Unity Shadergraph",
-           "Linux", "Git",
+           "Linux", "Git", "Unit Testing", "Scrum", "Agile",
          ]

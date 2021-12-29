@@ -1,52 +1,479 @@
+TITLE: Technical Artist
+COMPANY: Immerse
+DESCC: Interested in doing meaningful work, building an education product for Web 3.0, and empowering stude
+https://www.linkedin.com/jobs/view/2853674262/?eBP=JOB_SEARCH_ORGANIC&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=%2BjuZBBjuQegNmChS7thCNQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer
+COMPANY: FreeWill
+DESCC: Software Engineer
+
+FreeWill is an award-winning, social-good startup that has raised more than $2 bi
+https://www.linkedin.com/jobs/view/2857251435/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=vGsiUfWwwZeKKknHf8jAEg%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: NFT Software Engineer
+COMPANY: Na
+DESCC: Posted by
+Jordan Cassiani
+Financial Student at UW Green Bay | Financial Planning Assistant | Social 
+https://www.linkedin.com/jobs/view/2853744749/?eBP=JOB_SEARCH_ORGANIC&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=QNz4WZ5bQSHAFPYgcEzBkQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
 TITLE: Software Engineer, University Grad
 COMPANY: Meta
 DESCC: Want to build new features and improve existing products that more than a billion people around the 
-https://www.linkedin.com/jobs/view/2838629762/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=COMPANY_RECRUIT&refId=vjVq7ooWZhCsuPbsq7PjQw%3D%3D&trackingId=eNCYCPR0TjnoeeGPkD04DQ%3D%3D&trk=flagship3_search_srp_jobs
+https://www.linkedin.com/jobs/view/2853610009/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=COMPANY_RECRUIT&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=WECBnhPqrMtmCjUL8K3ZqQ%3D%3D&trk=flagship3_search_srp_jobs
 ============================================================================
-TITLE: Technical Artist (Contract)
-COMPANY: PlayStation
-DESCC: This is a 12-month contracted position through our staffing partner DZConneX with a high likelihood 
-https://www.linkedin.com/jobs/view/2843496599/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=vjVq7ooWZhCsuPbsq7PjQw%3D%3D&trackingId=ZGJJ5dMmD7QeOakDr9jjsg%3D%3D&trk=flagship3_search_srp_jobs
-============================================================================
-TITLE: UI Technical Designer- SKATE
-COMPANY: Electronic Arts (EA)
-DESCC: Full Circle is a new studio based in Vancouver, with team members around the globe, embracing a remo
-https://www.linkedin.com/jobs/view/2808033961/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=vjVq7ooWZhCsuPbsq7PjQw%3D%3D&trackingId=UJ0zcVcFsunXafp4gzn9yg%3D%3D&trk=flagship3_search_srp_jobs
-============================================================================
-TITLE: Source Code Parsing Software Engineer
-COMPANY: CM First Group.
-DESCC: Posted by
-Roger Hammer
-Director of Software Development & Services at CM First Group.
-Send InMail
-Th
-https://www.linkedin.com/jobs/view/2845907190/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=vjVq7ooWZhCsuPbsq7PjQw%3D%3D&trackingId=9qwpGaPkU4jjGG7wpyvybg%3D%3D&trk=flagship3_search_srp_jobs
-============================================================================
-TITLE: Shared Services Software Developer
-COMPANY: Vexcel Imaging
-DESCC: Posted by
-Bradley Creer
-Corporate Recruiter
-Send InMail
-Vexcel Imaging is looking for a Shared Servi
-https://www.linkedin.com/jobs/view/2838543707/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=vjVq7ooWZhCsuPbsq7PjQw%3D%3D&trackingId=9Q6%2BMBZt03I0zmrF20bm5g%3D%3D&trk=flagship3_search_srp_jobs
-============================================================================
-TITLE: UI Software Engineer (C++ Unreal) - Maxis
-COMPANY: Electronic Arts (EA)
-DESCC: At Maxis, we excel at outrageous thinking. It's the fuel that inspires the best games in the world. 
-https://www.linkedin.com/jobs/view/2808040807/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=vjVq7ooWZhCsuPbsq7PjQw%3D%3D&trackingId=7iA9rR6MT7IpJLfcVz1B3g%3D%3D&trk=flagship3_search_srp_jobs
-============================================================================
-TITLE: Software Engineer (Join OCI)
-COMPANY: Oracle
-DESCC: Job Description
+TITLE: Software Engineer, Relay
+COMPANY: SoFi
+DESCC: Employee Applicant Privacy Notice
 
-Design, develop, troubleshoot and debug software programs for databases, applicatio
-https://www.linkedin.com/jobs/view/2845395569/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=COMPANY_RECRUIT&refId=vjVq7ooWZhCsuPbsq7PjQw%3D%3D&trackingId=D%2FO3L0%2F7Hdacix2von0%2BEw%3D%3D&trk=flagship3_search_srp_jobs
+Who We Are
+
+Shape a brighter financial future with us.
+
+Together 
+https://www.linkedin.com/jobs/view/2853290410/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=kaDWrjqbhKpf%2B9zQBkTwZA%3D%3D&trk=flagship3_search_srp_jobs
 ============================================================================
-TITLE: Gameplay Software Engineer - The Sims
-COMPANY: Electronic Arts (EA)
-DESCC: At Maxis, we excel at outrageous thinking. It's the fuel that inspires the best games in the world. 
-https://www.linkedin.com/jobs/view/2808024106/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=JOB_SEEKER_QUALIFIED&refId=vjVq7ooWZhCsuPbsq7PjQw%3D%3D&trackingId=aqGe7fgZN3RHm5UKxMWeug%3D%3D&trk=flagship3_search_srp_jobs
+TITLE: Software Engineer
+COMPANY: Blue Onion Labs Inc.
+DESCC: What The Role Is
+This is a full stack software engineer role at a YC-backed early stage startup with
+https://www.linkedin.com/jobs/view/2827868963/?eBP=JOB_SEARCH_ORGANIC&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=DQjgWrVofICubZNlxTTBCw%3D%3D&trk=flagship3_search_srp_jobs
 ============================================================================
-TITLE: Character TD (Contract)
-COMPANY: PlayStation
+TITLE: Software Engineer
+COMPANY: SGS Consulting
+DESCC: Posted by
+Shubham Singh
+US IT Recruiter
+Send InMail
+SUMMARY:
+
+The 3D Sensing Characterization & Cali
+https://www.linkedin.com/jobs/view/2857209007/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=Hka4ELSmH1iDbOTg9hPTHQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer
+COMPANY: SGS Consulting
+DESCC: Posted by
+Deepak kumar Singh
+Subject Matter Expert at SGS Consulting
+Send InMail
+Job Description: So
+https://www.linkedin.com/jobs/view/2857948112/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=4L0dL6pN9F11Qy5FpVNb0Q%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer
+COMPANY: SGS Consulting
+DESCC: Posted by
+Harshvardhan Singh Mandloi
+IT Recruiter at SGS Technical Service Private Ltd
+Send InMail
+J
+https://www.linkedin.com/jobs/view/2853774228/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=MPuxagA14m9T467eYU12Tg%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer, Relay
+COMPANY: SoFi
+DESCC: Employee Applicant Privacy Notice
+
+Who We Are
+
+Shape a brighter financial future with us.
+
+Together 
+https://www.linkedin.com/jobs/view/2853292266/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=qwbeIiHSnnho3Qx6H2GRmA%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer - Remote
+COMPANY: iboss
+DESCC: Company Overview
+
+iboss is a cloud security company that provides organizations and their employees 
+https://www.linkedin.com/jobs/view/2857650553/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=C6MyA5iU8TPUDSsEbZMgrQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer-Remote
+COMPANY: iboss
+DESCC: Posted by
+Megan Thayer, SHRM-CP
+Corporate Recruiter at iboss
+Send InMail
+Company Overview
+iboss is a
+https://www.linkedin.com/jobs/view/2857707554/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=T%2BaBWO%2F7uq6loS2uzwyo5w%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer (Machine Learning)
+COMPANY: TikTok
+DESCC: TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity 
+https://www.linkedin.com/jobs/view/2853675894/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=COMPANY_RECRUIT&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=hAUNjcdtoE6jFF%2BAXya2gA%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer - Frontend (Remote)
+COMPANY: Squarespace
+DESCC: Squarespace is seeking talented JavaScript engineers with strong design sensibilities and a desire t
+https://www.linkedin.com/jobs/view/2857152586/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=0jxR5OQ%2F6vFSwDpTSL2wOw%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer
+COMPANY: 2 a.m. Talent
+DESCC: Our client is hiring an Software Engineer who can join immediately. Please see the job details below
+https://www.linkedin.com/jobs/view/2857966415/?eBP=JOB_SEARCH_ORGANIC&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=s7zCVEhrMFvrKj4ksh4vpA%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Frontend Software Engineer (SASS, ReactJS, GraphQL)
+COMPANY: Intelliswift Software, Inc.
+DESCC: Posted by
+Basant Sharma
+Technical Recruiter at Intelliswift
+Send InMail
+Location: Remote
+Type: FTE; 
+https://www.linkedin.com/jobs/view/2853432299/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=%2Fm5UVrurTjrU2P%2FFQGVXsQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Full Stack Software Engineer
+COMPANY: Jobot
+DESCC: Fully Remote Full Stack Software Engineer- Fast Growing Company, Strong Pay and Great Equity Package
+https://www.linkedin.com/jobs/view/2853289007/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=iYJ3L7q8SKOvV4y%2FPYUaBQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Front End Software Engineer
+COMPANY: SS&C Technologies
+DESCC: SS&C is a global provider of investment and financial services and software for the financial servic
+https://www.linkedin.com/jobs/view/2853225365/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=qYaxRH1dxOPbdLA75ZYRwA%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer - DevEx
+COMPANY: Sourcegraph
+DESCC: Who We Are
+
+Our mission at Sourcegraph is to make it so that everyone can code, not just ~0.1% of th
+https://www.linkedin.com/jobs/view/2854112328/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=0xFxhlmoLjvEaYc4G2pa%2FQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Developer
+COMPANY: myAgro
+DESCC: Department: Product and Technology
+Team: IT
+Location: Remote in GMT time zone or close to it
+Reports
+https://www.linkedin.com/jobs/view/2857780888/?eBP=JOB_SEARCH_ORGANIC&refId=OUwyIoHC9Vi%2BJ0BKgGnfVA%3D%3D&trackingId=mgtW0eeT8L4yFe5o6t3I7g%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer
+COMPANY: SGS Consulting
+DESCC: Posted by
+PRAGATI SINGH
+Trainee Talent Acquisition Executive at SGS Consulting
+Send InMail
+SUMMARY:
+
+https://www.linkedin.com/jobs/view/2857964890/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=TTtGN8%2Bypz%2FTJ6PIHyeJuQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer - React (Remote)
+COMPANY: Better Therapeutics
+DESCC: The Company
+
+Description
+
+Better Therapeutics is a prescription digital therapeutics (PDT) company d
+https://www.linkedin.com/jobs/view/2829318904/?eBP=JOB_SEARCH_ORGANIC&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=6BjEO4SX8AJLyabOe%2FvNZg%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Front End Software Engineer
+COMPANY: SS&C Technologies
+DESCC: SS&C is a global provider of investment and financial services and software for the financial servic
+https://www.linkedin.com/jobs/view/2853223588/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=JEnJlMsVraeumBfWHic9eg%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer
+COMPANY: LanceSoft, Inc.
+DESCC: Posted by
+Nikunj Adwani
+Looking for Verification Engineers, Physical Design Engineer and Hardware En
+https://www.linkedin.com/jobs/view/2854102488/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=y3e%2FP23uLyczXYj53WvM7w%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Full Stack Software Engineer
+COMPANY: LaunchPad Lab
+DESCC: Posted by
+Shannon Mason
+Business Operations Manager at LaunchPad Lab
+Send InMail
+Developers at Launc
+https://www.linkedin.com/jobs/view/2857991322/?eBP=JOB_SEARCH_ORGANIC&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=8oBcjb4AKsN0xn1r40nkZw%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Developer
+COMPANY: Hiring Open Inc
+DESCC: You’ll be working alongside other experienced engineers and developers, collaborating on the various
+https://www.linkedin.com/jobs/view/2857978931/?eBP=JOB_SEARCH_ORGANIC&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=LOPZdIgjk2BwMVkRgjFv%2Bw%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer, Creators - Affiliates & Creators (Frontend)
+COMPANY: Fast
+DESCC: Build the world's fastest Identity and Checkout products
+
+Company Mission
+
+Our mission is to make bu
+https://www.linkedin.com/jobs/view/2821991812/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=NIjDFT%2FMVnqGWmrgl0nFLA%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Development Engineer
+COMPANY: Microsoft
+DESCC: We are seeking a motivated software engineer who is passionate about working in cloud-scale distribu
+https://www.linkedin.com/jobs/view/2853457397/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=COMPANY_RECRUIT&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=S5iDcLznitkDDG1D3PhanQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer
+COMPANY: Microsoft
+DESCC: The Cloud Hardware Infrastructure Engineering Firmware Development (CHIE-FW) team is responsible for
+https://www.linkedin.com/jobs/view/2853461021/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=IN_NETWORK&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=4x91Nj4ISDBos4XHJ%2F0xmQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer
+COMPANY: Leica Microsystems
+DESCC: This role is an evergreen/pipeline career posting. This means it is not an active job opening. Apply
+https://www.linkedin.com/jobs/view/2826440425/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=GaqopjRrJdmkxX2KKMrFag%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer
+COMPANY: NBCUniversal
+DESCC: Responsibilities
+
+We are seeking a Software Engineer 2 who will be an outstanding addition to our te
+https://www.linkedin.com/jobs/view/2857205295/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=SEsV%2Bbo3Gg6FHgO9ze4abg%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer (All levels from Founding Engineer to Associate Level)
+COMPANY: VANTA Partners, Inc
+DESCC: Posted by
+dean iacovetti JD MBA
+VANTA PARTNERS - RECRUITING - Passionately and Methodically Matching
+https://www.linkedin.com/jobs/view/2853691124/?eBP=JOB_SEARCH_ORGANIC&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=ZR7ESveBvID%2FIVIxWOmw%2FQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Applications Software Programmer (Entry Level)
+COMPANY: Saalex Solutions
+DESCC: This job is sourced from a job board. Learn more
+Saalex Solutions, the Federal services division of 
+https://www.linkedin.com/jobs/view/2857531578/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=E0Y6Q1slGs5nNNGOOZplhw%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Full Stack Software Engineer
+COMPANY: TekPartners
+DESCC: Title: Full Stack Software Engineer
+
+Location: Remote
+
+Duration: Permanent
+
+Compensation: $90,000 to
+https://www.linkedin.com/jobs/view/2857612488/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=A7xMfbqzFfmwW6JtL%2Fd5qw%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer
+COMPANY: NBCUniversal
+DESCC: Responsibilities
+
+We are seeking a Software Engineer 2 who will be an outstanding addition to our te
+https://www.linkedin.com/jobs/view/2857206000/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=l5UcuvWMfayleb3VyKjTsw%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Build Engineer, Pokémon GO
+COMPANY: Niantic, Inc.
+DESCC: Pokémon GO is looking for a skilled build engineer. The build engineer supports teams across Pokémon
+https://www.linkedin.com/jobs/view/2821931794/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=%2BS8Zxw9BM0Gpac2RuENg2A%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Algorithm Modeling Software Engineer
+COMPANY: Oculus VR
+DESCC: Facebook Reality Labs focuses on delivering Facebook's vision through Augmented Reality (AR) and Vir
+https://www.linkedin.com/jobs/view/2853600990/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=JK8F5DLyX9qvFClcCLL5hw%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer - Industry Engineering
+COMPANY: Microsoft
+DESCC: Microsoft is going through a transformational change to become the leading Cloud first, Mobile first
+https://www.linkedin.com/jobs/view/2821195769/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=IN_NETWORK&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=PwG282%2BX1hwVGXMquhpL0Q%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer - Payments
+COMPANY: Twitch
+DESCC: About Us
+
+Launched in 2011, Twitch is a global community that comes together each day to create mult
+https://www.linkedin.com/jobs/view/2821962004/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=1gVnND7B5oZsV6FyihhhPA%3D%3D&trackingId=M%2FYverQgUJXPsavDVUPDOg%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer
+COMPANY: Ultra Electronics Group
+DESCC: Posted by
+DaVontte Archie
+Talent Acquisition Partner with Ultra Electronics Group
+Send InMail
+Ultra 
+https://www.linkedin.com/jobs/view/2853794816/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=JBt3QvZU59Vr2Ee2kp2QOg%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Mixed Reality Software Engineer
+COMPANY: Saalex Solutions
+DESCC: This job is sourced from a job board. Learn more
+Saalex Solutions, the Federal services division of 
+https://www.linkedin.com/jobs/view/2857533243/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=nS47n2EwEitbEDGxAbo%2B3g%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Product Software Engineer
+COMPANY: Wolters Kluwer
+DESCC: Basic Function
+
+The product software engineer is a multidisciplinary technical role that requires a 
+https://www.linkedin.com/jobs/view/2854101660/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=HZdCidkBR%2Bjq9z6ic3kRWQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer - Payments
+COMPANY: Twitch
+DESCC: About Us
+
+Launched in 2011, Twitch is a global community that comes together each day to create mult
+https://www.linkedin.com/jobs/view/2821961164/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=TRQCrcouiJJkR%2B%2Bt6q7gog%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer - Biotech/Medical Device Software
+COMPANY: Leica Microsystems
+DESCC: Posted by
+Karen Pappas
+Senior Talent Advisor - Life Sciences at Danaher Corporation
+Send InMail
+Role
+https://www.linkedin.com/jobs/view/2826454124/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=EWMFAqwRPMMnqAsAXUS%2FkQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Backend Software Engineer
+COMPANY: Critical Mention
+DESCC: Posted by
+Emily Templeton
+VP Human Resources at Critical Mention
+Send InMail
+Who We Are:
+The fastest
+https://www.linkedin.com/jobs/view/2853642185/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=HcUSgx3IqJ9UCoDLZiO2UQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer, Creators - Affiliates & Creators (Backend)
+COMPANY: Fast
+DESCC: Build the world's fastest Identity and Checkout products
+
+Company Mission
+
+Our mission is to make bu
+https://www.linkedin.com/jobs/view/2821990925/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=MGheBm9XNnhI4mOm3V%2FiUQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Remote Software Engineer
+COMPANY: Modis
+DESCC: Modis has an exciting job opportunity for a Software Engineer that is full-time and completely remot
+https://www.linkedin.com/jobs/view/2853760192/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=PRE_SCREENING_QUESTIONS&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=gID%2BN%2B44hjRe%2BKxd9DGkAg%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Development Engineer 2 - Content
+COMPANY: Highspot
+DESCC: About Highspot
+
+Highspot helps sales teams improve customer conversations and achieve their revenue 
+https://www.linkedin.com/jobs/view/2710954063/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=wAaWiunj%2Fh99hTrNsTWo8Q%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer
+COMPANY: Motorola Solutions
+DESCC: Department Overview
+The Cloud Infrastructure Engineering team is responsible for the development and
+https://www.linkedin.com/jobs/view/2857944491/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=kDJEFUQv0TSG4kXnedzANw%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer
+COMPANY: EPITEC
+DESCC: Posted by
+Rebecca Farnell
+Recruiter at EPITEC
+Send InMail
+POSITION:
+Software Engineer
+LOCATION:
+Redm
+https://www.linkedin.com/jobs/view/2853237240/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=iBcSMMS7pvvf7cOWNOb4DA%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer, Application Development
+COMPANY: LockerDome
+DESCC: LockerDome is an ad platform with a brain, designed specifically for modern advertising. At the core
+https://www.linkedin.com/jobs/view/2512476703/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=cm5Mo4kJ%2BtZobftdTUkL1Q%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: SOFTWARE ENGINEER
+COMPANY: HCL Technologies
+DESCC: To develop and deliver codes for the work assigned in accordance with time, quality and cost standar
+https://www.linkedin.com/jobs/view/2857630009/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=cI3CqljIIwQiVdglZcak%2Fg%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: SOFTWARE ENGINEER
+COMPANY: HCL Technologies
+DESCC: To develop and deliver codes for the work assigned in accordance with time, quality and cost standar
+https://www.linkedin.com/jobs/view/2857631171/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=3AUxHnRRzzYFk5bbD6rPAg%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Full Stack Software Developer
+COMPANY: Tesco Controls, Inc.
+DESCC: Tesco Controls is a growing $100+ mil systems integration company and original equipment manufacture
+https://www.linkedin.com/jobs/view/2853783766/?eBP=JOB_SEARCH_ORGANIC&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=KhxeUNM2ivuEg1%2FlgmXB0Q%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer
+COMPANY: EBSCO Industries, Inc.
+DESCC: This job is sourced from a job board. Learn more
+EBSCO Information Services (EIS) provides a complet
+https://www.linkedin.com/jobs/view/2857907987/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=JOB_SEEKER_QUALIFIED&refId=CoT2cR69Z7VAt3xDMqZGFw%3D%3D&trackingId=TbEA7yw5TgcrB9SGz10KRw%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Full-Stack Software Engineer
+COMPANY: Biteable
+DESCC: Posted by
+Holly Howell
+Senior Recruiter at Biteable | We are Hiring!
+Send InMail
+Hello. Biteable her
+https://www.linkedin.com/jobs/view/2636979395/?eBP=JOB_SEARCH_ORGANIC&refId=%2BS%2F1jn1OBO8UmskWQI2lJg%3D%3D&trackingId=vR3EK5EyodEZUZpDhJP6xg%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer, ML Platform, FEAR
+COMPANY: Apple
+DESCC: Summary
+
+Imagine what you could do here. At Apple, new ideas have a way of becoming phenomenal produ
+https://www.linkedin.com/jobs/view/2853289359/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=%2BS%2F1jn1OBO8UmskWQI2lJg%3D%3D&trackingId=wozyz98vWrIOFQeG%2FWrWxA%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer - Ruby on Rails, Learn React (Remote)
+COMPANY: Better Therapeutics
+DESCC: The Company
+
+Description
+
+Better Therapeutics ("Better") is developing first-in-class prescription d
+https://www.linkedin.com/jobs/view/2829323088/?eBP=JOB_SEARCH_ORGANIC&refId=%2BS%2F1jn1OBO8UmskWQI2lJg%3D%3D&trackingId=mq%2FHTVaIKQlvoJxpMIDvIA%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer
+COMPANY: MOLOCO
+DESCC: Posted by
+Walter Gauptman
+Talent Acquisition Leader
+Send InMail
+Software Engineer - Seattle, Washing
+https://www.linkedin.com/jobs/view/2733669637/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=%2BS%2F1jn1OBO8UmskWQI2lJg%3D%3D&trackingId=rdRNpQvsQmShvuUtYk3mvg%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer 2
+COMPANY: Microsoft
+DESCC: Are you interested in being part of a team with $9B revenue annually and 15+% growth every quarter? 
+https://www.linkedin.com/jobs/view/2853423458/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=IN_NETWORK&refId=%2BS%2F1jn1OBO8UmskWQI2lJg%3D%3D&trackingId=dKi%2BYStrRPd1ezLxtLcJWQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer (remote)
+COMPANY: EBSCO Industries, Inc.
+DESCC: This job is sourced from a job board. Learn more
+EBSCO Information Services (EIS) provides a complet
+https://www.linkedin.com/jobs/view/2857911518/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=JOB_SEEKER_QUALIFIED&refId=%2BS%2F1jn1OBO8UmskWQI2lJg%3D%3D&trackingId=tr3ceYExp%2FL81k1YwXX3wQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer 2 - HR Technology
+COMPANY: Nordstrom
+DESCC: Job DescriptionThis opportunity is part of the team of Nordstrom Technology professionals that desig
+https://www.linkedin.com/jobs/view/2853699847/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=IN_NETWORK&refId=%2BS%2F1jn1OBO8UmskWQI2lJg%3D%3D&trackingId=3JdNdhnsAL7rUOH9B8UWfg%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer - Remote
+COMPANY: Liberty Mutual Insurance
+DESCC: The Cobra Kai team, a part of GRM US Claims Technology, is looking for a Software Engineer to join o
+https://www.linkedin.com/jobs/view/2821961490/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=JOB_SEEKER_QUALIFIED&refId=%2BS%2F1jn1OBO8UmskWQI2lJg%3D%3D&trackingId=KSWrcMpLDaVoXxacX9rPgw%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Software Engineer, SRE - Seattle
+COMPANY: MOLOCO
+DESCC: Posted by
+Walter Gauptman
+Talent Acquisition Leader
+Send InMail
+Software Engineer, SRE - Seattle
+
+Ab
+https://www.linkedin.com/jobs/view/2743153303/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=%2BS%2F1jn1OBO8UmskWQI2lJg%3D%3D&trackingId=thcDZNPD5zzm%2BBn9U%2BXZEA%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Full Stack Software Engineer
+COMPANY: Intelletec
+DESCC: Posted by
+Kevin Moody
+Principle Consultant | Software Engineering at Intelletec
+Send InMail
+The Opio
+https://www.linkedin.com/jobs/view/2775214556/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=PRE_SCREENING_QUESTIONS&refId=%2BS%2F1jn1OBO8UmskWQI2lJg%3D%3D&trackingId=dQgMCP%2FI%2B0evu6pTCsoaHQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: C++ Software Engineer, AR Team
+COMPANY: Niantic, Inc.
+DESCC: Are you passionate about building the core technology powering Niantic’s recently announced Lightshi
+https://www.linkedin.com/jobs/view/2515778499/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=%2BS%2F1jn1OBO8UmskWQI2lJg%3D%3D&trackingId=Okqy6rIGmICy%2FUuOSZ4uLQ%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Remote Software Engineer
+COMPANY: Adyen
+DESCC: This is Adyen
+
+We took an unobvious approach to starting a payments company, building a platform fro
+https://www.linkedin.com/jobs/view/2547099713/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=5enHTFRNYM6W7oGYvgJHDw%3D%3D&trackingId=Yrflo2Bwlwg6suKuuF04eg%3D%3D&trk=flagship3_search_srp_jobs
+============================================================================
+TITLE: Principal Gameplay Designer (Shooter Game)
+COMPANY: LILA Games
