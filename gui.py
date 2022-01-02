@@ -5,6 +5,7 @@ from doubledown_scraper import scrape_doubledown
 from epic_games_scraper import scrape_epic_games
 
 from gui_helpers import *
+from hitmarker_scraper import scrape_hitmarker
 from intercept_games_scraper import scrape_intercept_games
 from pokemon_scraper import scrape_pokemon
 from resume_generate import create_resume
@@ -23,6 +24,8 @@ subtitle_font = ("Arial 10 bold underline")
 big_title_font = ("Arial 28 bold")
 
 job_list_linkedin = []
+job_list_hitmarker = []
+
 job_list_unity = []
 job_list_epic_games = []
 job_list_doubledown = []
@@ -138,8 +141,10 @@ def make_scraper_layout():
     scraper_layout_helper("Wizards of the Coast", job_list_wizards_of_the_coast, scraper_layout)
     scraper_layout_helper("Bungie", job_list_bungie, scraper_layout)
     scraper_layout_helper("Arenanet", job_list_arenanet, scraper_layout)
-    scraper_layout_helper("Linkedin", job_list_linkedin, scraper_layout)
     scraper_layout_helper("Suckerpunch", job_list_suckerpunch, scraper_layout)
+
+    scraper_layout_helper("Linkedin", job_list_linkedin, scraper_layout)
+    scraper_layout_helper('Hitmarker', job_list_hitmarker, scraper_layout)
 
     return scraper_layout
 
@@ -147,6 +152,7 @@ def open_tabs_helper(job_list, name):
     for i in range(len(job_list)):
             if(values["eLink"  +  name + str(i)]) == True:
                 webbrowser.open_new(job_list[i]["URL"])
+                time.sleep(.5)
 
 def make_tab_grp():
     tabgrp = [
@@ -185,18 +191,20 @@ while True:
     if event == "Generate Cover Letter":
         create_cover_letter(values)
     if event == "Scrape":
-        # job_list_unity = scrape_unity()
-        # job_list_epic_games = scrape_epic_games()
-        # job_list_doubledown = scrape_doubledown()
-        # job_list_343_industries = scrape_343_industries()
-        # job_list_pokemon = scrape_pokemon()
-        # job_list_intercept_games = scrape_intercept_games()
-        # job_list_wizards_of_the_coast = scrape_wizards_of_the_coast()
-        #job_list_bungie = scrape_bungie()
-        #job_list_arenanet = scrape_arenanet()
+        job_list_unity = scrape_unity()
+        job_list_epic_games = scrape_epic_games()
+        job_list_doubledown = scrape_doubledown()
+        job_list_343_industries = scrape_343_industries()
+        job_list_pokemon = scrape_pokemon()
+        job_list_intercept_games = scrape_intercept_games()
+        job_list_wizards_of_the_coast = scrape_wizards_of_the_coast()
+        job_list_bungie = scrape_bungie()
+        job_list_arenanet = scrape_arenanet()
         job_list_suckerpunch = scrape_suckerpunch()
 
-        # job_list_linkedin = scrape_linkedin()
+        #job_list_linkedin = scrape_linkedin()
+        job_list_hitmarker = scrape_hitmarker()
+
         layout = [make_tab_grp()]
         window1 = sg.Window("Interview Getter", layout)
         window.Close()
@@ -222,6 +230,7 @@ while True:
         open_tabs_helper(job_list_bungie, "Bungie")
         open_tabs_helper(job_list_arenanet, "Arenanet")
         open_tabs_helper(job_list_suckerpunch, "Suckerpunch")
+        open_tabs_helper(job_list_hitmarker, 'Hitmarker')
     if event == "Print Data":
         print("JOB DATA:")
         for job in job_list_linkedin:
