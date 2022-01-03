@@ -10,6 +10,7 @@ from hair_brained_schemes_scraper import scrape_hair_brained_schemes
 from hitmarker_scraper import scrape_hitmarker
 from intercept_games_scraper import scrape_intercept_games
 from pokemon_scraper import scrape_pokemon
+from probably_monsters_scraper import scrape_probably_monsters
 from resume_generate import create_resume
 from resume_data import *
 from cover_letter_generate import *
@@ -40,6 +41,7 @@ job_list_arenanet = []
 job_list_suckerpunch = []
 job_list_geocaching = []
 job_list_hair_brained_schemes = []
+job_list_probably_monsters = []
 
 def make_resume_layout():
 
@@ -148,6 +150,7 @@ def make_scraper_layout():
     scraper_layout_helper("Suckerpunch", job_list_suckerpunch, scraper_layout)
     scraper_layout_helper('Geocaching', job_list_geocaching, scraper_layout)
     scraper_layout_helper('Hair Brained Schemes', job_list_hair_brained_schemes, scraper_layout)
+    scraper_layout_helper('Probably Monsters', job_list_probably_monsters, scraper_layout)
 
     scraper_layout_helper("Linkedin", job_list_linkedin, scraper_layout)
     scraper_layout_helper('Hitmarker', job_list_hitmarker, scraper_layout)
@@ -208,7 +211,8 @@ while True:
         # job_list_arenanet = scrape_arenanet()
         # job_list_suckerpunch = scrape_suckerpunch()
         # job_list_geocaching = scrape_geocaching()
-        job_list_hair_brained_schemes = scrape_hair_brained_schemes()
+        # job_list_hair_brained_schemes = scrape_hair_brained_schemes()
+        job_list_probably_monsters = scrape_probably_monsters()
 
         #job_list_linkedin = scrape_linkedin()
         #job_list_hitmarker = scrape_hitmarker()
@@ -241,6 +245,7 @@ while True:
         open_tabs_helper(job_list_hitmarker, 'Hitmarker')
         open_tabs_helper(job_list_geocaching, "Geocaching")
         open_tabs_helper(job_list_hair_brained_schemes, "Hair Brained Schemes")
+        open_tabs_helper(job_list_probably_monsters, "Probably Monsters")
     if event == "Print Data":
         print("JOB DATA:")
         for job in job_list_linkedin:
