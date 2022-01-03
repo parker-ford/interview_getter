@@ -3,6 +3,7 @@ from arenanet_scraper import scrape_arenanet
 from bungie_scraper import scrape_bungie
 from doubledown_scraper import scrape_doubledown
 from epic_games_scraper import scrape_epic_games
+from geocahing_scraper import scrape_geocaching
 
 from gui_helpers import *
 from hitmarker_scraper import scrape_hitmarker
@@ -36,6 +37,7 @@ job_list_wizards_of_the_coast = []
 job_list_bungie = []
 job_list_arenanet = []
 job_list_suckerpunch = []
+job_list_geocaching = []
 
 def make_resume_layout():
 
@@ -142,6 +144,7 @@ def make_scraper_layout():
     scraper_layout_helper("Bungie", job_list_bungie, scraper_layout)
     scraper_layout_helper("Arenanet", job_list_arenanet, scraper_layout)
     scraper_layout_helper("Suckerpunch", job_list_suckerpunch, scraper_layout)
+    scraper_layout_helper('Geocaching', job_list_geocaching, scraper_layout)
 
     scraper_layout_helper("Linkedin", job_list_linkedin, scraper_layout)
     scraper_layout_helper('Hitmarker', job_list_hitmarker, scraper_layout)
@@ -191,19 +194,20 @@ while True:
     if event == "Generate Cover Letter":
         create_cover_letter(values)
     if event == "Scrape":
-        job_list_unity = scrape_unity()
-        job_list_epic_games = scrape_epic_games()
-        job_list_doubledown = scrape_doubledown()
-        job_list_343_industries = scrape_343_industries()
-        job_list_pokemon = scrape_pokemon()
-        job_list_intercept_games = scrape_intercept_games()
-        job_list_wizards_of_the_coast = scrape_wizards_of_the_coast()
-        job_list_bungie = scrape_bungie()
-        job_list_arenanet = scrape_arenanet()
-        job_list_suckerpunch = scrape_suckerpunch()
+        # job_list_unity = scrape_unity()
+        # job_list_epic_games = scrape_epic_games()
+        # job_list_doubledown = scrape_doubledown()
+        # job_list_343_industries = scrape_343_industries()
+        # job_list_pokemon = scrape_pokemon()
+        # job_list_intercept_games = scrape_intercept_games()
+        # job_list_wizards_of_the_coast = scrape_wizards_of_the_coast()
+        # job_list_bungie = scrape_bungie()
+        # job_list_arenanet = scrape_arenanet()
+        # job_list_suckerpunch = scrape_suckerpunch()
+        job_list_geocaching = scrape_geocaching()
 
         #job_list_linkedin = scrape_linkedin()
-        job_list_hitmarker = scrape_hitmarker()
+        #job_list_hitmarker = scrape_hitmarker()
 
         layout = [make_tab_grp()]
         window1 = sg.Window("Interview Getter", layout)
@@ -231,6 +235,7 @@ while True:
         open_tabs_helper(job_list_arenanet, "Arenanet")
         open_tabs_helper(job_list_suckerpunch, "Suckerpunch")
         open_tabs_helper(job_list_hitmarker, 'Hitmarker')
+        open_tabs_helper(job_list_geocaching, "Geocaching")
     if event == "Print Data":
         print("JOB DATA:")
         for job in job_list_linkedin:

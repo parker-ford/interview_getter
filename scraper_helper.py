@@ -176,12 +176,11 @@ niantic: https://careers.nianticlabs.com/openings/?office=seattle-area-bellevue-
 keywords studios: https://www.keywordsstudios.com/careers/
 leaftail labs: https://www.leaftaillabs.com/careers
 ncsoft: https://us.ncsoft.com/en-us/careers?sort=location#all
-suckerpunch: https://jobs.suckerpunch.com/?host=jobs.suckerpunch.com
 hopoo games: https://hopoogames.com/jobs-at-hopoo-games/
 play every ware: https://www.playeveryware.com/careers
 theory craft games: https://www.theorycraftgames.com/careers
-gamesight: https://angel.co/company/gamesight/jobs
-valve: https://www.valvesoftware.com/en/?job_cat=software-engineering
+-gamesight: https://angel.co/company/gamesight/jobs
+-valve: https://www.valvesoftware.com/en/?job_cat=software-engineering
 -mythical games: https://mythicalgames.com/careers
 
 --startups--
@@ -197,5 +196,6 @@ intercept games: https://www.interceptgames.com/#jobs
 wizareds of the coast: https://company.wizards.com/en/careers 
 bungie: https://careers.bungie.com/jobs
 arena net: https://www.arena.net/en/careers#listings
+suckerpunch: https://jobs.suckerpunch.com/?host=jobs.suckerpunch.com
 
 """
