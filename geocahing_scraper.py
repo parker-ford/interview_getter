@@ -12,17 +12,20 @@ def scrape_geocaching():
 
     db = TinyDB('db.json')
     job_list = []
-    postings = driver.find_elements_by_class_name('opening')
-    print(len(postings))
-    for posting in postings:
-        info = posting.find_element_by_tag_name('a')
-        title = info.text
-        company = 'Geocaching'
-        url = info.get_attribute('href')
-        job = create_job(title,company,'',url)
-        if len(db.search(where('URL') == url)) == 0:
-            db.insert(job)
-            job_list.append(job)
+    try:
+        postings = driver.find_elements_by_class_name('opening')
+        print(len(postings))
+        for posting in postings:
+            info = posting.find_element_by_tag_name('a')
+            title = info.text
+            company = 'Geocaching'
+            url = info.get_attribute('href')
+            job = create_job(title,company,'',url)
+            if len(db.search(where('URL') == url)) == 0:
+                db.insert(job)
+                job_list.append(job)
+    except:
+        print('Error getting geocaching jobs')
 
 
     driver.close()
